@@ -47,14 +47,14 @@ $('.navbar .menu li a').click(function(){
 
 
     var typed =new Typed(".typing",{
-        strings:["Developer","coder","Blogger","Designer","Freelancer"],
-        typeSpeed:100,
+        strings:["Developer","Programmer","Designer","Freelancer"],
+        typeSpeed:80,
         backSpeed:60,
         loop:true
     });
     var typed =new Typed(".typing-2",{
-        strings:["Developer","coder","Blogger","Designer","Freelancer"],
-        typeSpeed:100,
+        strings:["Developer","Programmer","Blogger","Designer","Freelancer"],
+        typeSpeed:80,
         backSpeed:60,
         loop:true
     });
