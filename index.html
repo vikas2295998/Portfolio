@@ -75,7 +75,7 @@
                         currently exploring more of it.
                         I’m always looking forward to learning, collaborate and hopefully make an impact.
                     </p>
-                    <a href="#">Download CV</a>
+                    <a href="./files/Vikas_CV.pdf" target="_blank">Download CV</a>
                 </div>
             </div>
         </div>
@@ -92,7 +92,9 @@
                 <div class="card">
                     <div class="box">
                         <i class="fas fa-graduation-cap"></i>
+
                         <div class="text">Bachelor of Technology</div>
+                        <br>
                         <h3>National Institue of Technology, Durgapur</h3>
                         <p>July 2019 - Present</p>
                         <p><strong>Department</strong> : Computer Science and Technology<br>
@@ -415,26 +417,26 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form action="#">
+                    <form method="post" action="contact-form-handler.php">
                         <div class="fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" required>
+                                <input type="text" placeholder="Name" name="name" required>
 
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="email" required>
+                                <input type="email" placeholder="email" name="email" required>
                             </div>
                         </div>
 
                         <div class="field">
-                            <input type="text" placeholder="Subject" required>
+                            <input type="text" placeholder="Subject" name="subject" required>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." required></textarea>
+                            <textarea cols="30" rows="10" placeholder="Message.." name="message" required></textarea>
                         </div>
 
                         <div class="button-area">
-                            <button type="submit">send massage</button>
+                            <button type="submit" value="SEND MESSAGE">send massage</button>
                         </div>
 
 
