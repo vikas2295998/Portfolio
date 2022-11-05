@@ -1,3 +1,4 @@
+
 $(document).ready(function(){
     
 const a=document.getElementById('vikas');
@@ -52,7 +53,7 @@ $('.navbar .menu li a').click(function(){
         backSpeed:60,
         loop:true
     });
-    var typed =new Typed(".typing-2",{
+    var typed2 =new Typed(".typing-2",{
         strings:["Developer","Programmer","Blogger","Designer","Freelancer"],
         typeSpeed:80,
         backSpeed:60,
@@ -91,3 +92,5 @@ $('.navbar .menu li a').click(function(){
 // a.addEventListener('click',()=>{
 //     console.log("vilks");
 //  });
+
+

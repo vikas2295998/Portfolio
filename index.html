@@ -6,6 +6,7 @@
     <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <script data-main="scripts/main" src="scripts/require.js"></script>
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
     <!-- <script src="https://kit.fontawesome.com/a076d05399.js"></script> -->
@@ -25,7 +26,7 @@
                 <li><a href="#home" class="menu-btn">Home</a></li>
                 <li><a href="#about" class="menu-btn">About</a></li>
                 <li><a href="#education" class="menu-btn">Aducation</a></li>
-                <li><a href="#services" class="menu-btn">Services</a></li>
+                <!-- <li><a href="#services" class="menu-btn">Services</a></li> -->
                 <li><a href="#skills" class="menu-btn">Skill</a></li>
                 <li><a href="#project" class="menu-btn">Projects</a></li>
                 <!-- <li><a href="#teams" class="menu-btn">Teams</a></li> -->
@@ -131,7 +132,7 @@
         </div>
 
     </section>
-    <!-- services section strat -->
+    <!-- services section strat
     <section class="services" id="services">
         <div class="max-width">
             <h2 class="title">Services</h2>
@@ -165,7 +166,7 @@
             </div>
         </div>
 
-    </section>
+    </section> -->
 
     <!-- skill section start  -->
     <section class="skills" id="skills">
@@ -174,15 +175,12 @@
             <div class="skills-content">
                 <div class="column left">
                     <div class="text">My creative skills & experiences.</div>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Officia illo eligendi inventore
-                        veritatis tempora! Architecto rem eveniet beatae, earum doloribus accusantium, dolores obcaecati
-                        aliquam voluptate maiores nobis? Quas culpa obcaecati ipsam aperiam, pariatur eum deserunt.
-                        Sequi voluptate rerum fugit aliquid porro, impedit at odit tempore nostrum, ipsum unde ab sunt
-                        quidem deserunt reiciendis! Totam, similique numquam! Enim praesentium provident quas officiis
-                        sint, fuga corporis placeat ea alias illo tempora laboriosam quod exercitationem voluptates
-                        reiciendis deserunt! Magni blanditiis cum fugiat ea mollitia quaerat aliquid qui ex ipsum ullam
-                        voluptatibus sapiente adipisci eos nesciunt praesentium eligendi asperiores eveniet, cumque quos
-                        tempora doloribus.</p>
+                    <p>I have done a lot of work on my skills, I have more than 1 year experience of <b>Competative
+                            Coding</b> and frontend <b> Web Dovelopement</b>. I have solve more than 800 coding problems
+                        on diferent
+                        programming plateforms like leetcode ,geeksforgeeks and codeshef and holding a good rank. I have
+                        created some good project by using html,JavaScript and reactJs.
+                    </p>
                     <a href="#">Read more</a>
                 </div>
                 <div class="column right">
@@ -243,7 +241,6 @@
 
 
     <!-- project section start  -->
-
     <section class="project" id="project">
         <div class="max-width">
             <h2 class="title">My Projects</h2>
@@ -262,7 +259,7 @@
                         </span>
                     </div>
                 </div>
-                <div class="card">
+                <!-- <div class="card">
                     <div class="box">
                         <span class="pname">
                             <h2>1. snake game</h2>
@@ -275,7 +272,7 @@
                                     href="https://vikas2295998.github.io/snakegame/">live damo</a></div>
                         </span>
                     </div>
-                </div>
+                </div> -->
                 <div class="card">
                     <div class="box">
                         <span class="pname">
@@ -283,19 +280,19 @@
                         </span>
                         <img src="images/restourent.png" alt="">
                         <span class="links">
-                            <div class="git-hub" id="git-hub"><a href="#">
+                            <div class="git-hub" id="git-hub"><a href="https://github.com/vikas2295998/restourent">
                                     github link</a></div>
                             <div class="live-demo" id="live-demo"><a
                                     href="https://vikas2295998.github.io/restourent/">live damo</a></div>
                         </span>
                     </div>
                 </div>
-                <div class="card">
+                <!-- <div class="card">
                     <div class="box">
                         <span class="pname">
-                            <h2>1. snake game</h2>
+                            <h2>3. calculator</h2>
                         </span>
-                        <img src="images/sn1.png" alt="">
+                        <img src="images/cal1.png" alt="">
                         <span class="links">
                             <div class="git-hub" id="git-hub"><a href="https://github.com/vikas2295998/snakegame">
                                     github link</a></div>
@@ -303,7 +300,7 @@
                                     href="https://vikas2295998.github.io/snakegame/">live damo</a></div>
                         </span>
                     </div>
-                </div>
+                </div> -->
 
             </div>
         </div>
@@ -417,26 +414,26 @@
                 </div>
                 <div class="column right">
                     <div class="text">Message me</div>
-                    <form method="post" action="contact-form-handler.php">
-                        <div class="fields">
+                    <form>
+                        <div class=" fields">
                             <div class="field name">
-                                <input type="text" placeholder="Name" name="name" required>
+                                <input type="text" placeholder="Name" id="name" required>
 
                             </div>
                             <div class="field email">
-                                <input type="email" placeholder="email" name="email" required>
+                                <input type="email" placeholder="email" id="email" required>
                             </div>
                         </div>
 
                         <div class="field">
-                            <input type="text" placeholder="Subject" name="subject" required>
+                            <input type="text" placeholder="Subject" id="subject" required>
                         </div>
                         <div class="field textarea">
-                            <textarea cols="30" rows="10" placeholder="Message.." name="message" required></textarea>
+                            <textarea cols="30" rows="10" placeholder="Message.." id="message" required></textarea>
                         </div>
 
                         <div class="button-area">
-                            <button type="submit" value="SEND MESSAGE">send massage</button>
+                            <button type="submit" id="btn" value="SEND MESSAGE">send massage</button>
                         </div>
 
 
@@ -452,6 +449,9 @@
         <span>Created by <a href="#">vikas kumar</a> | <span class="far-fa-copyright"></span> 2022 All rights
             reserved.</span>
     </footer>
+    <!-- 
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="form.js"></script> -->
     <script src="index.js"></script>
 </body>
 

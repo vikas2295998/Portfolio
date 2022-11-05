@@ -642,7 +642,7 @@ margin: 20px;
     justify-content: space-around;
     align-items: center;
 }
- #git-hub,#live-demo{
+ .git-hub,.live-demo{
    
     padding: 10px;
     border: 2px solid crimson;
@@ -652,12 +652,12 @@ margin: 20px;
     font-weight: 600;
     font-family: 'Ubantu',sans-serif;
 }
-.project .carousel .card:hover  #git-hub ,.project .carousel .card:hover #live-demo {
+.project .carousel .card:hover  .git-hub ,.project .carousel .card:hover .live-demo {
     background: #fff;
     color: crimson;
 }
 
-#live-demo a,#git-hub a{
+.live-demo a,.git-hub a{
     text-decoration: none;
     color: crimson;
     color: crimson;
