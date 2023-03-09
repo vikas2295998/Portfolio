@@ -715,6 +715,16 @@ margin: 20px;
   .contact .contact-content .info .head{
     font-weight: 500;
   }
+  .contact .contact-content .info .head a{
+    font-weight: 500;
+    margin-left: 0px;
+    color :black;
+  }
+  .contact .contact-content .info .head a i{
+    font-weight: 300;
+    margin-left: 0px;
+    font-size: 1rem;
+  }
   
   .contact .contact-content .info .sub-title{
     color: #333;

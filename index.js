@@ -48,15 +48,15 @@ $('.navbar .menu li a').click(function(){
 
 
     var typed =new Typed(".typing",{
-        strings:["Developer","Programmer","Designer","Freelancer"],
+        strings:["Programmer","Web Developer","UI Designer","Freelancer"],
         typeSpeed:80,
         backSpeed:60,
         loop:true
     });
-    var typed2 =new Typed(".typing-2",{
-        strings:["Developer","Programmer","Blogger","Designer","Freelancer"],
+    var typed2 =new Typed(".typing1",{
+        strings:["Programmer","Web Developer","UI Designer","Freelancer"],
         typeSpeed:80,
-        backSpeed:60,
+        backSpeed:50,
         loop:true
     });
 
